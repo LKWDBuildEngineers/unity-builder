@@ -1,4 +1,4 @@
-import AWS from './aws';
+import AWS from './aws/aws';
 import * as core from '@actions/core';
 import RemoteBuilderUID from './remote-builder-uid';
 import { BuildParameters } from '..';
