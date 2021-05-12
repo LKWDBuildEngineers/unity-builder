@@ -46,7 +46,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && yarn build && git add dist/index.*"
+      "pre-commit": "yarn build && git add dist/index.*"
     }
   },
   "lint-staged": {
