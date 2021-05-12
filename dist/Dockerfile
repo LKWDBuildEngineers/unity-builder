@@ -17,4 +17,10 @@ ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 RUN ls
 
+
+RUN mkdir -p /usr/share/unity3d/config
+COPY ./config/services-config.json /usr/share/unity3d/config/services-config.json
+
+
+
 ENTRYPOINT ["/entrypoint.sh"]

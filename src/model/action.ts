@@ -2,7 +2,7 @@ import path from 'path';
 
 class Action {
   static get supportedPlatforms() {
-    return ['linux'];
+    return ['linux', 'dawrin'];
   }
 
   static get isRunningLocally() {
