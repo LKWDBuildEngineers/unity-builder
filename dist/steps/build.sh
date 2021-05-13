@@ -119,13 +119,13 @@ unity-editor \
   -nographics \
   -logfile /dev/stdout \
   -quit \
-  -customBuildName "$BUILD_NAME" \
+#  -customBuildName "$BUILD_NAME" \
   -projectPath "$UNITY_PROJECT_PATH" \
   -buildTarget "$BUILD_TARGET" \
-  -customBuildTarget "$BUILD_TARGET" \
-  -customBuildPath "$CUSTOM_BUILD_PATH" \
+  #-customBuildTarget "$BUILD_TARGET" \
+ # -customBuildPath "$CUSTOM_BUILD_PATH" \
   -executeMethod "$BUILD_METHOD" \
-  -buildVersion "$VERSION" \
+#  -buildVersion "$VERSION" \
   -androidVersionCode "$ANDROID_VERSION_CODE" \
   -androidKeystoreName "$ANDROID_KEYSTORE_NAME" \
   -androidKeystorePass "$ANDROID_KEYSTORE_PASS" \
