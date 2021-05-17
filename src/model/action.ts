@@ -2,7 +2,7 @@ import path from 'path';
 
 class Action {
   static get supportedPlatforms() {
-    return ['linux', 'darwin'];
+    return ['linux', 'darwin', 'win32'];
   }
 
   static get isRunningLocally() {
